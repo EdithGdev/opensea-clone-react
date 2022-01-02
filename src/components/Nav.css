@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 72px;
+    width:100%;
+    background-color: #1C1F27;
+    display: flex;
+}
+
+.logo {
+    height: 100%;
+
+}
+
+.inputContainer {
+    background-color: red;
+    width: 500px;
+}
+
+.nav-items {
+    background-color: blue;
+    display: flex;
+    
+}
+
+.user {
+    display: flex;
+}
