@@ -8,24 +8,102 @@
     width:100%;
     background-color: #1C1F27;
     display: flex;
+    align-items: center;
 }
 
 .logo {
     height: 100%;
-
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-right: 180px;
 }
+
+.logo h1 {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.boat {
+    height: 60%;
+    display: flex;
+    padding-left: 16px;
+}
+
 
 .inputContainer {
-    background-color: red;
-    width: 500px;
+
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    width: 100%;
 }
 
-.nav-items {
-    background-color: blue;
+.searchBar :hover {
+    background-color: #4C505C;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #89929A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.searchIcon {
+    margin: 10px;
+}
+
+.icon {
+    color: #8A939B;
+    height: 30px;
+    width: 30px;
+}
+
+.searchBar {
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #353840;
     display: flex;
-    
+    flex: 1;
+    overflow: hidden;
+
+}
+
+
+.nav-items {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.nav-items li {
+    padding: 20px;
+
+}
+
+.nav-items ul a{
+    color: #C0C3C6;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.nav-items li :hover {
+    color: white;
 }
 
 .user {
     display: flex;
 }
+
